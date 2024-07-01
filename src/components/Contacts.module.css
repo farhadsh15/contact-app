@@ -1,0 +1,76 @@
+/* .container {
+
+} */
+
+.inputForm {
+    padding: 30px 20px;
+    margin: 30px 0px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(47, 78, 254, 0.512);
+    border-radius: 20px;
+    /* text-align: center; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+
+}
+.inputForm input {
+    margin: 10px 10px;
+    padding: 5px 8px;
+    width: 47%;
+    border-radius: 8px;
+    border: 3px solid rgb(216, 216, 216);
+    color: #304ffe;
+    background-color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: 0.1s all ease-in-out;
+}
+.container input:focus {
+    border-color: #304ffe;
+}
+.inputForm button {
+    margin: 25px 0px 0px;
+    display: inline-block;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #304ffe;
+    color: #fff;
+    width: 100%;
+    transition: 0.1s all ease-in-out;
+}
+.inputForm button:hover {
+    box-shadow: 0 0 10px rgba(48, 79, 254, 0.603);
+}
+.inputForm span {
+    color: red;
+    margin: 20px 30px;
+    text-align: left;
+}
+
+
+.contactList {
+    background-color: rgba(235, 235, 235, 0.35);
+    padding: 5px 20px;
+    margin: 30px 0px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(47, 78, 254, 0.512);
+}
+.contactList ul {
+    list-style: none;
+}
+
+.noCantact {
+    text-align: center;
+    margin: 50px auto ;
+    font-size: 1.3rem;
+    color: #304ffe;
+    font-weight: bolder;
+}
+
+@media (max-width: 720px) {
+    .inputForm input {
+        width: 90%;
+    }
+}
